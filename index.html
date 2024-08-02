@@ -1,0 +1,243 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Wian Otto - Portfolio</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/custom.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <style>
+        /* Add your custom styles here */
+        .skills-list, .contact-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+        }
+
+        .skills-list li, .contact-list li {
+            flex: 1 1 calc(30% - 10px);
+            box-sizing: border-box;
+        }
+
+        .contact-list {
+            padding: 0 15%;
+        }
+
+        .contact-list li {
+            flex: 1 1 calc(50% - 20px);
+        }
+
+        .contact-list .icons {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+    </style>
+</head>
+<body class="is-preload">
+
+    <!-- Wrapper -->
+    <div id="wrapper" class="fade-in">
+
+        <!-- Intro -->
+        <div id="intro">
+            <h1>Wian Otto</h1>
+            <p>Showcasing my projects, skills, and professional journey.</p>
+            <img id="profile-pic" src="assets/pictures/pfp_suit.jpg" alt="Profile Picture">
+            <ul class="actions">
+                <li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+            </ul>
+        </div>
+
+        <!-- Header -->
+        <header id="header">
+            <a href="index.html" class="logo">Wian Otto</a>
+        </header>
+
+        <!-- Nav -->
+        <nav id="nav">
+            <ul class="links">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="#about" class="nav-link">About Me</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <ul class="icons">
+                <li><a href="https://linkedin.com/in/wianotto" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                <li><a href="https://github.com/Wian132/" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+            </ul>
+        </nav>
+
+        <!-- Main -->
+        <div id="main">
+
+            <!-- PDF Viewer -->
+            <section id="pdf" class="main">
+                <header class="major">
+                    <h2>My CV</h2>
+                </header>
+                <iframe id="pdf-viewer" src="assets/pictures/Wian_Otto_CV.pdf" type="application/pdf"></iframe>
+            </section>
+
+            <!-- About Me -->
+            <section id="about" class="main">
+                <header class="major">
+                    <h2>About Me</h2>
+                </header>
+                <p>I am a dedicated software developer with a strong foundation in IT, specializing in leveraging AI to automate systems and streamline processes. With a passion for problem-solving, I find immense satisfaction in developing software solutions that meet complex challenges. I have extensive experience working with FlutterFlow and Supabase, which are my preferred technologies due to their robust capabilities and flexibility.</p>
+            </section>
+
+            <!-- Projects -->
+            <section id="projects" class="main">
+                <header class="major">
+                    <h2>Projects</h2>
+                </header>
+                <div class="project-section">
+                    <h3>Logistics App</h3>
+                    <img class="project-image expandable" src="assets/pictures/logistics-1.jpg" alt="Transfresco App Image 1">
+                    <img class="project-image expandable" src="assets/pictures/logistics-3.jpg" alt="Transfresco App Image 3">
+                    <img class="project-image expandable" src="assets/pictures/logistics-2.jpg" alt="Transfresco App Image 2">
+                    <a href="https://github.com/Wian132/TransFresco" class="button">View on GitHub</a>
+                </div>
+                <div class="project-section">
+                    <h3>Social Media App - Watskud</h3>
+                    <img class="project-image expandable" src="assets/pictures/Watskud-GPT.jpg" alt="Watskud GPT Image">
+                    <img class="project-image expandable" src="assets/pictures/Watskud-Profile.jpg" alt="Watskud Profile Image">
+                    <img class="project-image expandable" src="assets/pictures/Watskud-Users.jpg" alt="Watskud Users Image">
+                    <a href="https://github.com/Wian132/WatSkudPotch" class="button">View on GitHub</a>
+                </div>
+                <div class="project-section ai-chatbot">
+                    <h3>AI Chatbot</h3>
+                    <img class="project-image expandable" src="assets/pictures/chatbot-1.png" alt="AI Chatbot Image 1">
+                    <img class="project-image expandable" src="assets/pictures/chatbot-2.jpg" alt="AI Chatbot Image 2">
+                    <a href="https://github.com/Wian132/python_WA_chatbot" class="button">View on GitHub</a>
+                </div>
+            </section>
+
+            <!-- Skills -->
+            <section id="skills" class="main">
+                <header class="major">
+                    <h2>Skills</h2>
+                </header>
+                <ul class="skills-list">
+                    <li>FlutterFlow</li>
+                    <li>Firebase (NoSQL)</li>
+                    <li>Supabase (PostgreSQL)</li>
+                    <li>Azure (SQL)</li>
+                    <li>Python</li>
+                    <li>C# (Windows and Web Apps)</li>
+                    <li>Flutter</li>
+                    <li>Visual Studio</li>
+                    <li>VSCode</li>
+                    <li>WordPress</li>
+                    <li>HTML, CSS, JavaScript</li>
+                    <li>JavaScript string manipulation</li>
+                    <li>OpenAI Vision API</li>
+                    <li>OpenAI Assistants</li>
+                    <li>Custom Chatbot Development</li>
+                    <li>Twilio</li>
+                    <li>Java (Object-Oriented)</li>
+                    <li>SQL</li>
+                    <li>Cloud Computing</li>
+                    <li>Collaborative Team Player</li>
+                    <li>Astute Problem-Solver</li>
+                </ul>
+            </section>
+
+            <!-- Contact -->
+            <section id="contact" class="main">
+                <header class="major">
+                    <h2>Contact</h2>
+                </header>
+                <ul class="contact-list">
+                    <li>
+                        <h3>Address</h3>
+                        <span>12 Honeyberry Str, <br>Potchefstroom, South Africa</span>
+                    </li>
+                    <li>
+                        <h3>Phone</h3>
+                        <span><a href="tel:+27814703105">+27 81 470 3105</a></span>
+                    </li>
+                    <li>
+                        <h3>Email</h3>
+                        <span><a href="mailto:wianotto@gmail.com">wianotto@gmail.com</a></span>
+                    </li>
+                    <li>
+                        <h3>Social</h3>
+                        <ul class="icons">
+                            <li><a href="https://www.linkedin.com/in/wian-otto-83733b250/" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                            <li><a href="https://github.com/wianotto" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+        </div>
+
+        <!-- Footer -->
+        <footer id="footer">
+            <ul><li>&copy; Wian Otto</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+        </footer>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="scripts.js"></script>
+    <script>
+        // Ensure custom scripts are loaded
+        console.log('Custom scripts loaded');
+
+        // Add smooth scrolling
+        document.querySelectorAll('.nav-link').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Expandable images
+        const images = document.querySelectorAll('.expandable');
+        images.forEach(image => {
+            image.addEventListener('click', () => {
+                const modal = document.createElement('div');
+                modal.classList.add('modal');
+
+                const modalImg = document.createElement('img');
+                modalImg.classList.add('modal-content');
+                modalImg.src = image.src;
+
+                const caption = document.createElement('div');
+                caption.classList.add('caption');
+                caption.innerText = image.alt;
+
+                const closeModal = document.createElement('span');
+                closeModal.classList.add('close');
+                closeModal.innerHTML = '&times;';
+                closeModal.onclick = function() {
+                    modal.style.display = 'none';
+                    document.body.removeChild(modal);
+                };
+
+                modal.appendChild(modalImg);
+                modal.appendChild(caption);
+                modal.appendChild(closeModal);
+                document.body.appendChild(modal);
+
+                modal.style.display = 'block';
+            });
+        });
+    </script>
+</body>
+</html>
